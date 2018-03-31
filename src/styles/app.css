@@ -1,0 +1,94 @@
+body{
+  background: #F1F1F1
+}
+
+#root{
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  min-width: 550px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+a.active {
+  color: orange
+}
+
+nav {
+  padding-top: 20px;
+}
+
+
+/* DivTable.com */
+.course--table{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+	display: table;
+	width: 100%;
+}
+.course--row-head, .course--row {
+	display: table-row;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.course--row:nth-child(even){background-color: #f2f2f2;}
+
+.course--row-body {
+	display: table-row-group;
+}
+
+.course--row-head {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.course--column, .course--row-head {
+	display: table-cell;
+	padding: 3px 10px;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.course--row-head  {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+	background-color: #4CAF50;
+	display: table-header-group;
+	color: #FFF;
+}
+
+.course--add-form{
+  padding: 10px;
+  margin: 50px 0;
+  border: 1px solid #ddd;
+}
+
+.form--row{
+  margin: 10px 0;
+}
+
+.course--add-form input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.course--add-form input[type=button] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.course--add-form input[type=button]:hover {
+    background-color: #45a049;
+}
