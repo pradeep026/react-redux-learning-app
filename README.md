@@ -14,7 +14,7 @@ A simple course management application using react and redux.
 
 * Use [https://nodejs.org/en/](node) version `v8.9.4` or higher
 * Use npm version `5.8.0`
-* git clone [https://github.com/pradeep026/react-redux-learning-app/tree/develop](react-redux-learning-app) this repository
+* git clone **[https://github.com/pradeep026/react-redux-learning-app.git]** (react-redux-learning-app) this repository
 * change into the new directory
 * npm install
 
