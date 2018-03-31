@@ -7,7 +7,9 @@
     "start": "npm-run-all --parallel open:src lint:watch",
     "open:src": "babel-node server/server.js",
     "lint": "node_modules/.bin/esw src server",
-    "lint:watch": "npm run lint -- --watch"
+    "lint:watch": "npm run lint -- --watch",
+    "test": "mocha --reporter spec server/testServerConfig.js \"src/**/*.test.js\"",
+    "test:watch": "npm run test -- --watch"
   },
   "keywords": [
     "React",

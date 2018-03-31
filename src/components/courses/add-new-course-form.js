@@ -16,8 +16,6 @@ const emptyCourse = {
 
 class AddNewCourseForm extends React.Component{
 
-
-
   constructor(props, context){
     super(props, context);
     this.state = {

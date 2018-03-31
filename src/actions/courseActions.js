@@ -1,17 +1,17 @@
 import actionTypes from './actionTypes';
 import courseApi from '../api/mockCourseApi';
 
-const createCourse = (course) => {
+export const createCourse = (course) => {
   const type = actionTypes.CREATE_COURSE;
   return { type , course };
 };
 
-const updateCourseAction = (course) => {
+export const updateCourseAction = (course) => {
   const type = actionTypes.UPDATE_COURSE;
   return { type , course };
 };
 
-const getAllCourses = (courses) => {
+export const getAllCourses = (courses) => {
   const type = actionTypes.GET_ALL_COURSES;
   return { type, courses };
 };
