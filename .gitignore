@@ -1,0 +1,36 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/tmp
+
+# dependencies
+/node_modules
+/bower_components/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+package-lock.json
+yarn-error.log
+testem.log
+*.sublime-project
+*.sublime-workspace
+
+# VSCode IDE
+.vscode
+.vscode/*
+jsconfig.json
+typings/*
+#nvm
+~/
+
+# OSX Default Ignore
+.DS_Store
+.AppleDouble
+.LSOverride
+._* # Thumbnails
+.Trashes
+.Spotlight-V100
